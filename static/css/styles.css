@@ -172,7 +172,7 @@
 
     /* others
      */
-    --color-body                   : #CFE6E8;
+    --color-body                   : #F5F5F5;
     --color-border                 : rgba(0, 0, 0, .08);
     --border-radius                : 3px;
 }
@@ -3218,7 +3218,8 @@ img.u-pull-left {
     line-height    : 1.0998;
     letter-spacing : -.01em;
     margin-top     : 0;
-    color          : white;
+    /*color          : white;*/
+    color: color(var(--color-text));
 }
 
 .s-intro__text h3 span {
@@ -3232,14 +3233,15 @@ img.u-pull-left {
     letter-spacing   : -0.015em;
     margin-top       : calc(var(--text-huge-size) / 2 * -1);
     margin-bottom    : var(--vspace-1_25);
-    color            : white;
+    /*color            : white;*/
+    color: color(var(--color-text));
 }
 
 /* --------------------------------------------------------------------
  * ## intro bg
  * -------------------------------------------------------------------- */
 .s-intro__bg {
-    aspect-ratio        : 1/1;
+    aspect-ratio        : 3/1;
     width               : 100%;
     /* background-color    : var(--color-gray-4); */
     /* background-image    : url(../images/portfolio.webp); */
